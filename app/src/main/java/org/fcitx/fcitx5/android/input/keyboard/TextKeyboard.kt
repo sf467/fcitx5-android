@@ -32,37 +32,32 @@ class TextKeyboard(
 
         val Layout: List<List<KeyDef>> = listOf(
             listOf(
-                AlphabetKey("Q", "1"),
-                AlphabetKey("W", "2"),
-                AlphabetKey("E", "3"),
-                AlphabetKey("R", "4"),
-                AlphabetKey("T", "5"),
-                AlphabetKey("Y", "6"),
-                AlphabetKey("U", "7"),
-                AlphabetKey("I", "8"),
-                AlphabetKey("O", "9"),
-                AlphabetKey("P", "0")
+                AlphabetKey("Q", "~"),
+                AlphabetKey("W", "!"),
+                AlphabetKey("R", "@"),
+                AlphabetKey("T", "#"),
+                AlphabetKey("Y", "$"),
+                AlphabetKey("L", "%"),
+                AlphabetKey("P", "-")
             ),
             listOf(
-                AlphabetKey("A", "@"),
-                AlphabetKey("S", "*"),
-                AlphabetKey("D", "+"),
-                AlphabetKey("F", "-"),
-                AlphabetKey("G", "="),
-                AlphabetKey("H", "/"),
-                AlphabetKey("J", "#"),
-                AlphabetKey("K", "("),
-                AlphabetKey("L", ")")
+                AlphabetKey("S", "^"),
+                AlphabetKey("D", "&"),
+                AlphabetKey("F", "*"),
+                AlphabetKey("G", "("),
+                AlphabetKey("H", ")"),
+                AlphabetKey("J", "|"),
+                AlphabetKey("K", "+")
             ),
             listOf(
                 CapsKey(),
-                AlphabetKey("Z", "'"),
-                AlphabetKey("X", ":"),
-                AlphabetKey("C", "\""),
-                AlphabetKey("V", "?"),
-                AlphabetKey("B", "!"),
-                AlphabetKey("N", "~"),
-                AlphabetKey("M", "\\"),
+                AlphabetKey("Z", "<"),
+                AlphabetKey("X", ">"),
+                AlphabetKey("C", "{"),
+                AlphabetKey("V", "}"),
+                AlphabetKey("B", "["),
+                AlphabetKey("N", "]"),
+                AlphabetKey("M", "="),
                 BackspaceKey()
             ),
             listOf(
