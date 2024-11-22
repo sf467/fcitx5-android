@@ -63,8 +63,10 @@ class TextKeyboard(
             listOf(
                 LayoutSwitchKey("?123", ""),
                 CommaKey(0.1f, KeyDef.Appearance.Variant.Alternative),
+                AlphabetKey("/", "?"),
                 LanguageKey(),
                 SpaceKey(),
+                AlphabetKey(";", ":"),
                 SymbolKey(".", 0.1f, KeyDef.Appearance.Variant.Alternative),
                 ReturnKey()
             )
