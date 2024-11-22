@@ -46,6 +46,7 @@ class AlphabetKey(
     popup: Array<Popup>? = null
 ) : KeyDef(
     Appearance.AltText(
+        percentWidth = 0.1428f,
         displayText = character,
         altText = punctuation,
         textSize = 23f,
