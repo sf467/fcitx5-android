@@ -50,24 +50,31 @@ class TextKeyboard(
                 AlphabetKey("K", "+")
             ),
             listOf(
-                CapsKey(),
                 AlphabetKey("Z", "<"),
                 AlphabetKey("X", ">"),
                 AlphabetKey("C", "{"),
                 AlphabetKey("V", "}"),
                 AlphabetKey("B", "["),
                 AlphabetKey("N", "]"),
-                AlphabetKey("M", "="),
+                AlphabetKey("M", "=")
+            ),
+            listOf(
+                CapsKey(),
+                AlphabetKey("A", "“"),
+                AlphabetKey("E", "”"),
+                AlphabetKey("U", "`"),
+                AlphabetKey("I", "……"),
+                AlphabetKey("O", "·"),
                 BackspaceKey()
             ),
             listOf(
                 LayoutSwitchKey("?123", ""),
-                CommaKey(0.1f, KeyDef.Appearance.Variant.Alternative),
+                CommaKey(0.1428f, KeyDef.Appearance.Variant.Alternative),
                 AlphabetKey("/", "?"),
                 LanguageKey(),
                 SpaceKey(),
                 AlphabetKey(";", ":"),
-                SymbolKey(".", 0.1f, KeyDef.Appearance.Variant.Alternative),
+                SymbolKey(".", 0.1428f, KeyDef.Appearance.Variant.Alternative),
                 ReturnKey()
             )
         )
