@@ -135,7 +135,7 @@ val PopupPreset: Map<String, Array<String>> = hashMapOf(
     //
     // Punctuation
     //
-    "." to arrayOf(",", "?", "!", "“", "”", "_", "'", """, "‘", "’"),
+    "." to arrayOf(",", "?", "!", "“", "”", "_", "'", "\"", "‘", "’"),
     "-" to arrayOf("—", "–", "·"),
     "?" to arrayOf("¿", "‽"),
     "'" to arrayOf("‘", "’", "‚", "›", "‹"),
