@@ -111,7 +111,7 @@ class CapsKey : KeyDef(
 class LayoutSwitchKey(
     displayText: String,
     val to: String = "",
-    percentWidth: Float = 0.15f,
+    percentWidth: Float = 0.1428f,
     variant: Variant = Variant.Alternative
 ) : KeyDef(
     Appearance.Text(
@@ -220,7 +220,7 @@ class SpaceKey : KeyDef(
     )
 )
 
-class ReturnKey(percentWidth: Float = 0.15f) : KeyDef(
+class ReturnKey(percentWidth: Float = 0.1428f) : KeyDef(
     Appearance.Image(
         src = R.drawable.ic_baseline_keyboard_return_24,
         percentWidth = percentWidth,
