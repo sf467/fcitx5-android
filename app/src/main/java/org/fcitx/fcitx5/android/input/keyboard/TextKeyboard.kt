@@ -47,7 +47,7 @@ class TextKeyboard(
                 AlphabetKey("G", "("),
                 AlphabetKey("H", ")"),
                 AlphabetKey("J", "|"),
-                AlphabetKey("K", "+")
+                AlphabetKey("K", "'")
             ),
             listOf(
                 AlphabetKey("Z", "<"),
@@ -56,14 +56,14 @@ class TextKeyboard(
                 AlphabetKey("V", "}"),
                 AlphabetKey("B", "["),
                 AlphabetKey("N", "]"),
-                AlphabetKey("M", "=")
+                AlphabetKey("M", """)
             ),
             listOf(
                 CapsKey(),
                 AlphabetKey("A", "“"),
                 AlphabetKey("E", "”"),
                 AlphabetKey("U", "`"),
-                AlphabetKey("I", "……"),
+                AlphabetKey("I", "…"),
                 AlphabetKey("O", "·"),
                 BackspaceKey()
             ),
