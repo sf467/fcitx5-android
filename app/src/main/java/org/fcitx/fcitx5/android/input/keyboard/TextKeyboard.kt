@@ -56,7 +56,7 @@ class TextKeyboard(
                 AlphabetKey("V", "}"),
                 AlphabetKey("B", "["),
                 AlphabetKey("N", "]"),
-                AlphabetKey("M", """)
+                AlphabetKey("M", "·")
             ),
             listOf(
                 CapsKey(),
