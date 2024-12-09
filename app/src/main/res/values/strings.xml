@@ -279,4 +279,8 @@
     <string name="candidates_padding">Candidate word padding</string>
     <string name="candidates_window_min_width">Candidate window minimum width</string>
     <string name="candidates_window_padding">Candidate window padding</string>
+    <string name="restart_fcitx_instance">Restart fcitx instance</string>
+    <string name="restart_fcitx_instance_confirm">Fcitx instance will be destroyed and reinitialized. Proceed?</string>
+    <string name="ignore_system_window_insets">Ignore system WindowInsets</string>
+    <string name="browse_user_data_dir">Browse user data directory</string>
 </resources>
